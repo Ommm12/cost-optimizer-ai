@@ -117,3 +117,4 @@ with col2:
 # ------------------------
 st.markdown("### 📑 Full Reports")
 st.dataframe(df, use_container_width=True)
+st.write("CI/CD is working 🚀")
