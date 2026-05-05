@@ -104,13 +104,23 @@ with col1:
     st.plotly_chart(pie, use_container_width=True)
 
 with col2:
-    st.markdown("### 🤖 AI Insights")
+    st.subheader("🤖 AI Insights")
 
-    if not df.empty:
-        if latest > avg:
-            st.error("⚠️ Cost is above average")
+if not df.empty:
+    # Existing logic
+    if latest > avg:
+        st.error("⚠️ Cost is above average")
+    else:
+        st.success("✅ Cost is optimized")
+
+    # 🔥 NEW: Trend-based AI logic
+    if len(df) > 3:
+        trend = df["Cost"].diff().mean()
+
+        if trend > 5:
+            st.error("🚨 Increasing cost trend detected")
         else:
-            st.success("✅ Cost is optimized")
+            st.info("📊 Cost trend is stable")
 
 # ------------------------
 # TABLE
