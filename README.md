@@ -23,8 +23,5 @@ AWS (EC2, Lambda, S3, SNS, IAM)
 Python, Streamlit
 GitHub Actions, PM2
 
-## 📸 Screenshots
-(Add screenshots here)
-
 ## 🎯 Impact
 Reduced manual monitoring effort and enabled real-time cost visibility.
