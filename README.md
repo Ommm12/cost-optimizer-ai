@@ -177,6 +177,8 @@ cost-optimizer-ai/
 
 7. python -m streamlit run dashboard.py
 
+   
+
 
 
 **☁️ Deployment (AWS)**
@@ -192,6 +194,8 @@ cost-optimizer-ai/
 5. Use PM2 for background execution
 
 6. Setup GitHub Actions for CI/CD
+
+   
 
 
 
@@ -211,6 +215,8 @@ cost-optimizer-ai/
 
 
 
+
+
 **💡 Key Learnings**
 
 1. End-to-end DevOps pipeline
@@ -222,6 +228,8 @@ cost-optimizer-ai/
 4. Cloud security best practices
 
 5. Real-world debugging and deployment
+
+   
 
    
 
