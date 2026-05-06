@@ -177,6 +177,8 @@ cost-optimizer-ai/
 
 7. python -m streamlit run dashboard.py
 
+
+
 **☁️ Deployment (AWS)**
 
 1. Launch EC2 instance
@@ -192,6 +194,8 @@ cost-optimizer-ai/
 6. Setup GitHub Actions for CI/CD
 
 
+
+
 **📈 Future Improvements**
 
 1. Machine Learning-based cost prediction
@@ -203,6 +207,8 @@ cost-optimizer-ai/
 4. Kubernetes deployment
 
 5. Role-based dashboard access
+
+
 
 
 **💡 Key Learnings**
@@ -217,6 +223,8 @@ cost-optimizer-ai/
 
 5. Real-world debugging and deployment
 
+   
+
 
 
 **🎯 Impact**
@@ -228,7 +236,8 @@ cost-optimizer-ai/
 3. Improved cloud cost efficiency
 
 4. Built production-ready DevOps system
-5. 
+   
+ 
 
 
 👨‍💻** Author**:
