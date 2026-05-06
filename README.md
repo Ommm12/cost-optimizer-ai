@@ -102,7 +102,8 @@ SNS (Email Alerts)
 
 ## 📊 Dashboard Preview
 
-> Add screenshots here (important)
+> <img width="1920" height="1020" alt="Screenshot 2026-05-05 180117" src="https://github.com/user-attachments/assets/bbc1f69e-0acf-40eb-ba75-c4a17c2b2a43" />
+
 
 ---
 
@@ -132,16 +133,28 @@ Code Push → GitHub → GitHub Actions → EC2 → Deploy → Restart App
 
 
 cost-optimizer-ai/
+
 │
+
 ├── dashboard.py
+
 ├── lambda_function.py
+
 ├── cost_analyzer.py
+
 ├── test.py
+
 ├── requirements.txt
+
 │
+
 ├── .github/workflows/
+
+
 │ └── deploy.yml
+
 │
+
 └── README.md
 
 
@@ -149,45 +162,79 @@ cost-optimizer-ai/
 
 ## 🧪 How to Run Locally
 
-```bash
-git clone https://github.com/your-username/cost-optimizer-ai.git
-cd cost-optimizer-ai
 
-python -m venv venv
-source venv/bin/activate   # Linux
-venv\Scripts\activate      # Windows
+1. git clone https://github.com/your-username/cost-optimizer-ai.git
 
-pip install -r requirements.txt
-python -m streamlit run dashboard.py
+2. cd cost-optimizer-ai
+
+3. python -m venv venv
+
+4. source venv/bin/activate   # Linux
+
+5. venv\Scripts\activate      # Windows
+
+6. pip install -r requirements.txt
+
+7. python -m streamlit run dashboard.py
 
 **☁️ Deployment (AWS)**
-Launch EC2 instance
-Install dependencies
-Clone repository
-Run Streamlit app
-Use PM2 for background execution
-Setup GitHub Actions for CI/CD
+
+1. Launch EC2 instance
+
+2. Install dependencies
+
+3. Clone repository
+
+4. Run Streamlit app
+
+5. Use PM2 for background execution
+
+6. Setup GitHub Actions for CI/CD
+
 
 **📈 Future Improvements**
-Machine Learning-based cost prediction
-Multi-account AWS monitoring
-Slack / Teams integration
-Kubernetes deployment
-Role-based dashboard access
+
+1. Machine Learning-based cost prediction
+
+2. Multi-account AWS monitoring
+
+3. Slack / Teams integration
+
+4. Kubernetes deployment
+
+5. Role-based dashboard access
+
 
 **💡 Key Learnings**
-End-to-end DevOps pipeline
-AWS service integration
-CI/CD automation
-Cloud security best practices
-Real-world debugging and deployment
+
+1. End-to-end DevOps pipeline
+
+2. AWS service integration
+
+3. CI/CD automation
+
+4. Cloud security best practices
+
+5. Real-world debugging and deployment
+
+
 
 **🎯 Impact**
-Reduced manual cost monitoring
-Enabled real-time cost visibility
-Improved cloud cost efficiency
-Built production-ready DevOps system
 
-👨‍💻** Author**: Om Doifode:
+1. Reduced manual cost monitoring
+
+2. Enabled real-time cost visibility
+
+3. Improved cloud cost efficiency
+
+4. Built production-ready DevOps system
+5. 
+
+
+👨‍💻** Author**:
+
+Om Doifode:
+
 GitHub: https://github.com/Ommm12
+
 LinkedIn: (https://www.linkedin.com/in/omdoifode/)
